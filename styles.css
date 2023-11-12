@@ -1,0 +1,51 @@
+/*Suporte de acentuações*/
+@charset "UTF-8";
+
+/*Carregando fontes*/
+@font-face {
+    font-family: 'ST';
+    src: url('fontes/SvelteTrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'K&Q';
+    src: url('fontes/King\ &\ Queen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'AR';
+    src: url(fontes/Agbalumo-Regular.ttf);}
+
+/*Variáveis*/
+:root{
+    --cor1: #805137;}
+
+
+/*Tirando margens geradas automaticamente*/
+* {
+    margin: 0px;
+    padding: 0px;}
+/*Estilos da introdução do site*/
+#introducaoposicao{
+    /*Posição do texto introdutório*/
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;}
+#introducaofrase{
+    /*Tipo, tamanho e formato da fonte utilizada*/
+    font-family: 'AR';
+    font-size: 65px;
+    font-style: normal;
+    text-decoration: none;
+
+    /*Cor da fonte*/
+    color: var(--cor1);}
+#cocotamanho{
+    /*Tamanho da fonte utilizada*/
+    height: 100px;
+    width: 100px;}
+
+
+
+
+
