@@ -26,24 +26,29 @@
     margin: 0px;
     padding: 0px;}
 /*Estilos da introdução do site*/
-#introducaoposicao{
+header{
+    /*Imagem de fundo da introdução*/
+    background-image: url(imagens/background.jpg);
+    background-attachment: fixed;
+    /*Tamanho da imagem de fundo*/
+    height: 100vh;
     /*Posição do texto introdutório*/
-    text-align: center;
-    padding-top: 7%;
-    padding-bottom: 7%;}
-#introducaofrase{
+    text-align: center;}
+header h1{
+    /*Posicionamento do texto no centro*/
+    padding-top: 30vh;
     /*Tipo, tamanho e formato da fonte utilizada*/
     font-family: 'AR';
-    font-size: 65px;
+    font-size: 5vh;
     font-style: normal;
     text-decoration: none;
 
     /*Cor da fonte*/
     color: var(--cor1);}
-#cocotamanho{
-    /*Tamanho da fonte utilizada*/
-    height: 100px;
-    width: 100px;}
+header img{
+    /*Tamanho da imagem utilizada*/
+    height: 7.5vw;
+    width: 7.5vw;}
 
 
 
